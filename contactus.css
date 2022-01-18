@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    
+    
+    top: 0%;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+.navlist{
+width: 100%;
+position: sticky;
+
+display: flex;
+align-items: center;
+background-color: hotpink;
+width: 100%;
+opacity: 0.8;
+
+
+}
+.navlist li{
+    list-style: none;
+    padding: 6px;
+
+}
+
+.navlist a{
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+    padding: 6px ;
+
+}
+.navlist a:hover{
+    text-decoration: none;
+    color:burlywood;
+}
+.rightnav{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 25%;
+    margin: 6px;
+    outline:none;
+    border: none;
+    
+   
+    
+    
+   
+    
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    
+    width: 33%;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+#search{
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 17px;
+    border: 1px solid seagreen;
+    border-radius: 16px;
+    outline: none;
+}
+
+
+
+
+.rightnav .btnsm{
+    
+    text-align: center;
+    
+    width: 15%;
+    
+    
+    
+    background-color:rgb(195, 166, 214);
+cursor: pointer;
+    border: 1px solid rgb(95, 17, 17);
+    padding: 6px;
+    margin: auto;
+    border-radius: 16px;
+    outline: none;
+    display: flex;
+    
+}
+.btnsm:hover{
+    color:black;
+    background-color: rgb(149, 170, 209);
+}
+.cor{
+    width: 50%;
+    margin: 4px;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+.rnav{
+    
+    position: sticky;
+    left: 88%;
+    top: 1%;
+    margin: 4px;
+}
+.btnn{
+    
+    padding: 7px;
+    width: 60px;
+    margin: 5px;
+    cursor: pointer;
+    
+    background-color: red;
+    color: blue;
+    border: 1px solid rgb(134, 36, 36);
+    border-radius: 6px;
+    outline: none;
+    position: sticky;
+}
+input[type="text"]::placeholder{
+    text-align: center;
+}
+
+.btnnn{
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 7px;
+    color: rgb(104, 104, 223);
+    background-color:red;
+    border: 1px solid rgb(134, 36, 36);
+    border-radius: 6px;
+    position: sticky;
+}
+.btnn:hover{
+    background-color: rgb(135, 207, 67);
+}
+.btnnn:hover{
+    background-color: rgb(135, 207, 67);
+}
+.contact{
+    position: relative;
+    min-height: 30vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    top: -101px;
+
+}
+.contact .content h2{
+    font-size: 42px;
+    font-weight: 500;
+    position: relative;
+    top: 55px;
+    
+
+
+}
+.contact .content p{
+    font-weight: 300;
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+top: 90px;
+}
+
+body{
+    background: url(hmsback.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    outline: none;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    top: -15px;
+}
+.container .contactinfo {
+width: 40%;
+display: flex;
+flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 15px 8px;
+    display: flex;
+
+}
+.container .contactinfo .box .icon{
+    min-width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 13px;
+    padding: -2px;
+}
+.contactform {
+    width: 22%;
+    padding: 32px;
+    display: flex;
+    top: 30%;
+    margin-top: -128px;
+
+    
+}
+.inputBox{
+    width: 68%;
+}
+.inputBox span{
+    justify-content: center;
+    text-align: center;
+}
+.map{
+    position: relative;
+    
+    top: 10%;
+    
+    padding-left: 330px;
+    background-color: white;
+
+}
+.map *{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

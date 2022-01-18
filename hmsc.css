@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    
+    
+    top: 0%;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+.navlist{
+width: 100%;
+position: sticky;
+
+display: flex;
+align-items: center;
+background-color: hotpink;
+width: 100%;
+opacity: 0.8;
+
+
+}
+.navlist li{
+    list-style: none;
+    padding: 6px;
+
+}
+
+.navlist li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 1px;
+    padding: 1px ;
+
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.rightnav .btnsm{
+    
+    text-align: center;
+    
+    width: 15%;
+    
+    
+    
+    background-color:rgb(195, 166, 214);
+cursor: pointer;
+    border: 1px solid rgb(95, 17, 17);
+    padding: 6px;
+    margin: auto;
+    border-radius: 16px;
+    outline: none;
+    display: flex;
+    
+}
+nav ul li{
+    
+    position: relative;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    
+}
+nav ul li a:hover{
+    background-color: hotpink;
+    padding: 4px;
+}nav ul ul{
+    position: absolute;
+display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+    padding: 4px;
+    background-color: hotpink;
+}
+.spec1 copy{
+    color: white;
+}
+
+
+
+
+.rightnav{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+   
+    margin: 6px;
+    outline:none;
+    border: none;
+    text-align: center;
+    
+   
+    
+    
+   
+    
+}
+input[type="text"]::placeholder{
+    text-align: center;
+}
+
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    
+    width: 33%;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+#search{
+    width: 100%;
+    height: 32px;
+    padding: 5px;
+    margin: 7px;
+    font-size: 17px;
+    border: 1px solid seagreen;
+    border-radius: 16px;
+    outline: none;
+}
+
+
+.background{
+    background: url(hmsback.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    outline: none;
+
+}
+
+
+.btnsm:hover{
+    color:black;
+    background-color: rgb(100, 69, 104);
+}
+.cor{
+    width: 50%;
+    margin: 20px;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+}
+.rnav{
+    
+    position: sticky;
+    left: 88%;
+    top: 1%;
+    margin: 4px;
+}
+.btnn{
+    
+    padding: 7px;
+    width: 60px;
+    margin: 5px;
+    cursor: pointer;
+    
+    background-color: red;
+    color: blue;
+    border: 1px solid rgb(134, 36, 36);
+    border-radius: 6px;
+    outline: none;
+    position: sticky;
+}
+.btnnn{
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 7px;
+    color: rgb(104, 104, 223);
+    background-color:red;
+    border: 1px solid rgb(134, 36, 36);
+    border-radius: 6px;
+    position: sticky;
+}
+.btnn:hover{
+    background-color: rgb(135, 207, 67);
+}
+.btnnn:hover{
+    background-color: rgb(135, 207, 67);
+}
+.slide{
+    
+    width: 50%;;
+    margin: auto;
+}
+.carousel slide carousel-indicators{
+    color: black;
+}
+.spec{
+    
+    background-color: rgb(219, 213, 208);
+    border: sienna;
+    
+}
+.spec h2{
+    color: darkslategray;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.spec p{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.spec i{
+    
+    margin: 60px;
+    
+    
+        font-size: 74px;
+        border: 1px;
+        border-radius: 50%;
+        /* color: white; */
+        background-color: white;
+        padding: 10px;
+        position: relative;
+        left: 120px;
+    
+}
+
+.specality{
+    display: flex;
+}
+.specality h3{
+    position: relative;
+    top: 140px;
+    left: -17px;
+    color: black;
+}
+.hero{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+}   
+.heroes{
+    width: 100%;
+    display: flex;
+    height: 1000px;
+    margin-left: 1px;
+    margin: 2px;
+    padding: 4px;
+    text-decoration: none;
+
+    
+    font-size: 30px;
+}
+.heroes img{
+    height: 300px;
+    margin: 10px;
+    padding: 1px;
+    display: flex;
+    
+    
+}
+.intro{
+    height: 10px;
+    width: 75%;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+    margin-top: 20px;
+    padding-left: 4px;
+
+    
+
+    
+}
+.photo1{
+    position: absolute;
+    height: 300pxs;
+    top: 1550px;
+    margin: 10px;
+    
+    
+}
+.intro1{
+    position: absolute;
+    top: 1550px;
+    
+    height: 10px;
+    text-align: center;
+
+    width: 75%;
+    margin-left: 320px;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    margin-top: 20px;
+    padding-left: 10px;
+
+    
+
+    
+}
+.spec1{
+    
+    background-color: rgb(27, 29, 68);
+    border: sienna;
+    text-align: left;
+    color:black;
+    margin: 1px;
+    padding: 2px;
+    
+}
+.spec1 h4:hover{
+    color: white;
+    margin: 4px;
+    padding: 4px;
+}
+.spec1 h3{
+    color: white;
+    text-align: center;
+}
+.spec1 hr{
+    color: blue;
+}
+.book .bt{
+    position: absolute;
+    top: 130px;
+    right: 180px;
+background-color: red;
+height: 60px;
+border-radius: 30px;
+font-weight: bold;
+width: 180px;
+animation: blinkButton 1s infinite;
+
+}
+@keyframes blinkButton{
+    0%{opacity:0.2;}
+    70%{opacity:1;
+    text-shadow: 1px 0px 30px yellow;}
+}
+.spec1 .creator{
+    text-align: center;
+}
